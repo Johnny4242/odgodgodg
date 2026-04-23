@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "code": "en",
+    "name": "English",
+    "englishName": "English",
+    "flag": "🇺🇸",
+    "regions": ["US", "GB", "AU", "CA", "NZ", "SG"],
+    "direction": "ltr",
+    "isSourceOfTruth": false
+  },
+
+  "payment": {
+    "currency": "USD",
+    "symbol": "$",
+    "symbolBeforeAmount": true,
+    "defaultAmounts": [1, 5, 10],
+    "methods": [
+      { "id": "card",     "icon": "💳", "name": "Card" },
+      { "id": "applepay", "icon": "",   "name": "Apple Pay" },
+      { "id": "gpay",     "icon": "G",  "name": "Google Pay" },
+      { "id": "paypal",   "icon": "🅿",  "name": "PayPal" },
+      { "id": "transfer", "icon": "🏦", "name": "Transfer" },
+      { "id": "crypto",   "icon": "₿",  "name": "Crypto" }
+    ]
+  },
+
+  "ui": {
+    "cur": "USD",
+    "sym": "$",
+    "pre": true,
+    "a": [1, 5, 10],
+
+    "ey": "An experiment · 2026",
+
+    "h1a": "Give me",
+    "h1b": "one",
+    "h1c": "dollar.",
+    "tag": "just one dollar<br><span class=\"tagline-opt\">(or more?)</span>",
+    "sub": "There are <b>8,200,000,000</b> people on this planet. 1 dollar won't kill anyone. It will make me a billionaire. You lose nothing, I gain absolutely everything.",
+
+    "meta": "people already gave",
+    "pct": "{p}% of humanity",
+    "sl1": "Donors",
+    "sl2": "Countries",
+    "sl3": "Today",
+
+    "s1": "Pick an amount",
+    "c1": "USD · classic",
+    "c5": "USD · middle",
+    "c10": "USD · hero",
+    "co": "∞",
+    "coc": "your call",
+
+    "s2": "Choose payment method",
+
+    "s3": "Leave me a message (optional)",
+    "msghint": "I read every single one",
+
+    "s4": "Send",
+    "legal": "It's a gift. No refunds. I'm 18+. <span class=\"tl\" onclick=\"openT(event)\">Read the terms.</span>",
+    "btn": "Send {a}",
+    "sec": "100% anonymous · Secure payment",
+
+    "sTitle": "Thank you. Really.",
+    "sSub": "Somewhere in Central Europe a tired guy just looked at his phone and smiled. That was me. Because of you.",
+
+    "abt": "Who is this guy?",
+    "ap1": "<b>Nobody. And that's the whole point.</b>",
+    "ap2": "I'm an ordinary guy from Central Europe. I get up at five, go to the factory, come back tired. Over and over.",
+    "ap3": "I'm not a company. I'm not a charity. I'm not an influencer. No sob story. I'm not pretending to save the world.",
+    "ap4": "One idea wouldn't leave my head: <b>what if I actually tried?</b> If everyone gave me a dollar, nobody would even notice. I'd be a billionaire. So here I am.",
+    "ap5": "No promises. No rewards. No NFTs. Just a cash gift and a thank-you. If it works — I'll never have to set an alarm again. If it doesn't — at least I tried!",
+
+    "badge": "Anonymous",
+    "tmt": "Terms",
+    "ft": "© onedollarguy.com · Not a charity · Personal gifts only",
+
+    "nav_lang": "language",
+    "nav_share": "share",
+    "share_title": "Share",
+    "close_title": "Close",
+
+    "astra_q": "?what does it mean?",
+    "astra_a": "„through hardships<br>to the stars\"",
+
+    "kontakt_btn": "contact",
+    "kontakt_msg": "I want to stay anonymous — but if you still want to contact me, here's my email:",
+
+    "share_tweet": "I just gave a dollar to One Dollar Guy. 8.2 billion to go. {url} Come join in!",
+
+    "ft_privacy": "Privacy",
+    "ft_soon": "(soon)",
+
+    "pmt": "Privacy Policy",
+    "legal_loading": "Loading…",
+    "legal_error": "Could not load the document. Please try again."
+  },
+
+  "faq": [
+    [
+      "Is this a scam?",
+      "If I were a scammer, I'd have come up with a better story. Saving the world, an AI startup…\n\nBut no — I'm telling you straight: <b>I want money, and I'm not pretending it's for anything else.</b> I'm honest. Payments go through global payment gateways — everything is secure."
+    ],
+    [
+      "Why should I even give you a dollar?",
+      "You don't have to. Nobody's forcing you. But think about it — <b>when was the last time you did something that cost you practically nothing, but might have given someone hope?</b> One \"dollar\" — ideally more 😄. It's up to you. All I can do is thank you."
+    ],
+    [
+      "What will you do with the money?",
+      "It won't be that hot 😄 <b>From one dollar, after everything, barely anything is left for me.</b>\u00a0 I want to travel. I've never been on a plane. I want to eat good food. Not to worry whether I'll make it through the month. I won't pay off my loan. <b>And one day I might buy an old American car</b>\u00a0— that's been a dream since I was a kid. I know that if the project works out, I'd definitely help others too. And if it goes extremely well? As the classic said — hookers, booze and canapés 😄."
+    ],
+    [
+      "Who are you actually?",
+      "Honza. 30, my hair's already thinning 😄 I work with my hands. Since I was a kid I've fixed everything myself — what I couldn't fix, I didn't have. I like working out and eating good food. <b>I'm an introvert, I love animals and nature.</b> I've never had anything for free, but they say miracles happen, so we'll see."
+    ],
+    [
+      "Do you really think this will work?",
+      "I don't know. But I know one thing — <b>if I didn't try, I'd know for sure it wouldn't.</b> The biggest regrets in life aren't the things that didn't work out. They're the ones we never even started."
+    ]
+  ]
+}
